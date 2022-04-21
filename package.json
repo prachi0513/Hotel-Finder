@@ -5,5 +5,25 @@
     "express": "^4.17.3",
     "nodemon": "^2.0.15",
     "puppeteer": "^13.5.2"
-  }
+  },
+  "name": "hotel_finder",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "nodemon":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prachi0513/Hotel-Finder.git"
+  },
+  "author": "Prachi vats",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prachi0513/Hotel-Finder/issues"
+  },
+  "homepage": "https://github.com/prachi0513/Hotel-Finder#readme",
+  "description": ""
 }
