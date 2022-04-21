@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="style.css">
+<body>
+     <div style="display: flex;align-items: center;justify-content: center;font-size: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: rgba(232, 243, 159, 0.842);border: none;border-radius: 60px;"> Your Budget Hotels</div> 
+    <div id="add_to_me">
+        <% data.forEach(d=>{ %>
+           <div  style="background-color: rgb(39, 41, 58);margin: 3px; display: flex;align-items: center;justify-content: center;border: none;border-radius: 60px;">
+            <a href="<%= d.HotelLink %>" target="_new">
+                <p style="color: white;"> Name : --<%= d.name %></p>
+                <p style="color: white;"> Price :-- Rs. <%= d.price %></p>
+                <p style="color: white;"> Reviews :-- <%= d.reviews%></p>
+                <!-- <p> <%= d.HotelLink%></p> -->
+                <img src="<%= d.image %>">
+            </a>    
+            </div> 
+        <% }) %>
+    </div>
+</body>
